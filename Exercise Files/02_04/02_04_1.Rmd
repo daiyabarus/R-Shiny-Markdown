@@ -9,12 +9,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
-The result of 2+2 is `r 2+2`
+The result of 2+2 is `r 2+4`
 
 ```{r curve_plot, echo = FALSE}
 curve(x^2, from = -5, to = 5)
 ```
-
 
 This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
@@ -22,9 +21,9 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ## Slide with Bullets
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+-   Bullet 1
+-   Bullet 2
+-   Bullet 3
 
 ## Slide with R Output
 
@@ -37,4 +36,3 @@ summary(cars)
 ```{r pressure}
 plot(pressure)
 ```
-
